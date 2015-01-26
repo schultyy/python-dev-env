@@ -1,6 +1,15 @@
 node default {
  include git 
  include postgresql::server
+ include python
+}
+
+class { 'python':
+  version     => '3.4',
+  pip         => true,
+  dev         => true,
+  virtualenv  => true,
+  gunicorn    => false,
 }
 
 class { 'postgresql::server':
