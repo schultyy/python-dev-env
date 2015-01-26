@@ -10,3 +10,8 @@ class { 'postgresql::server':
   postgres_password          => 'postgres',
 }
 
+postgresql::server::db { 'my_db':
+  user     => 'postgres',
+  password => postgresql_password('postgres', 'postgres')
+}
+
