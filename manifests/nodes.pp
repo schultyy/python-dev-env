@@ -2,6 +2,7 @@ node default {
  include git 
  include postgresql::server
  include python
+ include psycopg2
 }
 
 class { 'python':
