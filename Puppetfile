@@ -13,6 +13,8 @@ forge "https://forgeapi.puppetlabs.com"
 # mod 'puppetlabs-stdlib'
 mod 'theforeman-git'
 mod 'puppetlabs-postgresql'
+mod 'stankevich-python'
+
 # A module from git
 # mod 'puppetlabs-ntp',
 #   :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'

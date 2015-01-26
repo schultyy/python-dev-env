@@ -10,9 +10,12 @@ FORGE
       puppetlabs-concat (< 2.0.0, >= 1.1.0)
       puppetlabs-stdlib (~> 4.0)
     puppetlabs-stdlib (4.5.1)
+    stankevich-python (1.8.2)
+      puppetlabs-stdlib (>= 4.0.0)
     theforeman-git (1.4.0)
 
 DEPENDENCIES
   puppetlabs-postgresql (>= 0)
+  stankevich-python (>= 0)
   theforeman-git (>= 0)
 
