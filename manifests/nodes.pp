@@ -5,6 +5,12 @@ node default {
  include psycopg2
 }
 
+class psycopg2 {
+  package { [ "python-dev", "python-psycopg2"]:
+    ensure => present,
+  }
+}
+
 class { 'python':
   version     => '3.4',
   pip         => true,
