@@ -11,9 +11,10 @@ This is a basic Python development environment featuring:
 # Getting started
 
 ```bash
-$ gem install librarian-puppet
+$ gem install bundler
 $ git clone git@github.com:schultyy/python-dev-env.git
 $ cd python-dev-env
+$ bundle install
 $ librarian-puppet install
 $ vagrant up
 ```
